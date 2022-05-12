@@ -1,0 +1,26 @@
+.row{
+    padding: 20px;
+}
+div{
+    background-color: #a672fad0;
+    text-align: center;
+}
+
+/*estilo perfil*/
+@media (min-width: 576px){
+    #Perfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 5px 5px 5px rgb(62, 2, 90);
+        left: 5%;
+        top: 115%;
+    }
+}
+/*etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 40%;
+    margin-left: 10px;
+}
+
