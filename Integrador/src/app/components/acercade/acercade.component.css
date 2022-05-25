@@ -28,11 +28,21 @@ div{
         top: 630px;
     }
 }
+@media (max-width: 768px){
+    #Perfil{
+        position: absolute;
+        width: 20%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px rgb(62, 2, 90);
+        left: 1%;
+        top: 550px;
+    }
+}
 
 /*etiqueta nombre*/
 #nombre{
     font-weight: bold;
     margin-top: 40%;
-    margin-left: 10px;
+    margin-left: 400px;
 }
 
