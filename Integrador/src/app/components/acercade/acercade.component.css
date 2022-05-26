@@ -15,34 +15,32 @@ div{
         box-shadow: 5px 5px 5px rgb(62, 2, 90);
         left: 5%;
         top: 600px;
-    }
+            }
+ /*etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+        
 }
 
 @media (max-width: 575px){
     #Perfil{
         position: absolute;
-        width: 30%;
+        width: 25%;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px rgb(62, 2, 90);
-        left: 33%;
-        top: 630px;
+        box-shadow: 5px 5px 5px rgb(62, 2, 90);
+        left: 5%;
+        top: 600px;
     }
+
 }
-@media (max-width: 768px){
-    #Perfil{
-        position: absolute;
-        width: 20%;
-        border-radius: 100%;
-        box-shadow: 3px 3px 3px rgb(62, 2, 90);
-        left: 1%;
-        top: 550px;
-    }
-}
+
 
 /*etiqueta nombre*/
 #nombre{
     font-weight: bold;
-    margin-top: 40%;
-    margin-left: 400px;
+    margin-top: 10px
 }
 
